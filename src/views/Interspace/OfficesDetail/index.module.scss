@@ -1,0 +1,24 @@
+.offices_detail_wrap {
+  width: 100%;
+  background-color: $themeBgColor;
+  .base_info {
+    width: 100%;
+    padding: 24px 24px 0;
+    background-color: #fff;
+  }
+  .sub_nav_wrap {
+    display: flex;
+    .tab_item {
+      padding: 0 5px 5px 5px;
+      margin: 0 15px;
+      cursor: pointer;
+    }
+  }
+  .active {
+    border-bottom: 1px solid $themeColor;
+  }
+  .content {
+    margin-top: 24px;
+    background-color: #fff;
+  }
+}

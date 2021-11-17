@@ -1,0 +1,47 @@
+.logo {
+  text-align: center;
+  box-shadow: 1px 1px 0 0 #e8e8e8;
+  // margin-top: -20px;
+  // margin-bottom: -40px;
+  // height: 118px;
+  height: 64px;
+  border-bottom: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  .icon {
+    height: 100%;
+    padding: 15px 0;
+    width: 100%;
+    // font-size: 118px;
+    color: #dd6419;
+  }
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+  // padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  .user-setting {
+    vertical-align: bottom;
+    cursor: pointer;
+    .user-name {
+      margin-left: 10px;
+    }
+  }
+}
+.ant-popover-inner-content {
+  padding: 0;
+}
+.user-setting-content {
+  .user-setting-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    &:last-child {
+      border-bottom: none;
+    }
+    .title {
+      margin-left: 10px;
+    }
+  }
+}

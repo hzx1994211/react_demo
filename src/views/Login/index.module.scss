@@ -1,0 +1,27 @@
+.login_wrap {
+  width: 100vw;
+  height: 100vh;
+  background: #f0f1f4 url('../../assets/images/login_bg.jpg') no-repeat center;
+  position: relative;
+  .logo_wrap {
+    position: absolute;
+    left: 48px;
+    top: 60px;
+    .titleImg {
+      margin-left: 14px;
+    }
+  }
+  .login_form {
+    position: absolute;
+    width: 368px;
+    height: 398px;
+    background: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    opacity: 1;
+    border-radius: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 216px;
+    padding: 36px 24px;
+  }
+}

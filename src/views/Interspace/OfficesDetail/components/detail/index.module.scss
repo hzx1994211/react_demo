@@ -1,0 +1,9 @@
+.detail_content_wrap {
+  background-color: $themeBgColor;
+  .detail_content_card {
+    margin-top: 24px;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
